@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+.sidebar {
+  flex: 0.28;
+  /* border:1px solid red;  */
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+  height: 68%;
+  position: sticky;
+  top:70px;
+  cursor: pointer;
+  font-family: Chelsea Market;
+  font-weight: 700;
+  /* font-size:25px !important; */
+  z-index: -100;
+ 
+  box-shadow: 0px 5px 24px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  font-size: 4px !important;
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  
+}

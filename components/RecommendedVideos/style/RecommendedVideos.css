@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+.recommendedVideos {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  padding-bottom: 0;
+  /* border:5px solid red; */
+  margin-left:10px;
+  margin-right:30px;
+  box-shadow: 0px 5px 34px -7px rgba(0, 0, 0, 0.75);
+  /* border-top:1px solid rgb(255, 255, 255); */
+  border-radius: 15px;
+  margin-top:12px;
+  position: sticky;
+  top:300px;
+  /* z-index: -200; */
+  padding-top:16px;
+  /* cursor: pointer; */
+
+
+}
+
+.recommendedVideos > h2 {
+  margin-left: 12px;
+  margin-bottom: 20px;
+  /* cursor: pointer !important; */
+  /* border:1px solid red; */
+  padding:10px;
+  width: fit-content;
+  box-shadow: 0px 5px 6px 3px rgba(0, 0, 0, 0.75);
+
+  border-radius: 15px;
+  background-color:transparent;
+  margin-top:0px;
+  font-family: Chelsea Market;
+  box-shadow: 1px 0px 5px rgb(0, 247, 255),
+  1px 0px 5px rgb(0, 247, 255),
+   1px 0px 10px rgb(0, 247, 255), 
+   1px 0px 15px rgb(0, 247, 255);
+
+
+  animation: animate 20s linear infinite;
+
+  
+}
+
+@keyframes animate {
+  0% {
+
+    filter: hue-rotate(5deg);
+  
+  }
+  50% {
+ 
+    filter: hue-rotate(35deg);
+  }
+  100% {
+   
+    filter: hue-rotate(235deg);
+  }
+}
+
+.recommendedVideos_videos{
+  display: flex;
+
+
+
+  flex-wrap: wrap;
+  /* border:1px solid red; */
+  /* text-align: center; */
+  /* width: 100%; */
+  /* margin:auto; */
+  /* width: 70%; */
+  margin: auto;
+  text-align: center;
+  box-shadow: 0px 5px 34px -7px rgba(0, 0, 0, 0.75);
+
+  margin-left:10px;
+  margin-top:20px;
+  padding-top:20px;
+  padding-left:26px;
+}
